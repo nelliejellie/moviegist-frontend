@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Gist</title>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" media="screen and (max-width: 700px)" rel="stylesheet" href="css/style2.css" />
+	<link type="text/css" media="screen and (min-width: 701px) and (max-width: 1200px)" rel="stylesheet" href="css/style3.css" />
+</head>
+<body>
+	<!-- header -->
+	<header><a href="#">MovieGist</a></header>
+
+	<!-- navbar -->
+	<div >
+	<ul id="bigscreens">
+		<li >
+			<!-- dropdowns -->
+			<a href="#" id="Hollywood">Hollywood</a>
+			<ul id="hlist">
+				<li><a href="#" id="Movies" >Movies</a></li>
+				<li><a href="#" id="Tvs">Tv Series</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#" id="Nollywood">Nollywood</a>
+			<ul id="nlist">
+				<li><a href="#" id="Movies" >Movies</a></li>
+				<li><a href="#" id="Tvs">Tv Series</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#" id="bollywood">Bollywood</a>
+			<ul id="blist">
+				<li><a href="#" id="Moviess" >Movies</a></li>
+				<li><a href="#" id="Tvs">Tv Series</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#" id="login">Login</a>
+		</li>
+		<li><a href="#" id="register">Sign up</a></li>
+	</ul>
+	<!-- navbar -- mobile phones -->
+	<ul id="smallscreens">
+		<li >Menu
+			<ul>
+				<li>
+					<a href="#" id="Hollywood-smallscreen">Hollywood</a>	
+					<ul id="ul-smallscreen1">
+						<li><a href="#" >Movies</a></li>
+						<li><a href="#" >Tv series</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" id="Nollywood-smallscreen">Bollywood</a>
+					<ul id="ul-smallscreen2">
+						<li><a href="#" >Movies</a></li>
+						<li><a href="#" >Tv series</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" id="Bollywood-smallscreen">Nollywood</a>
+					<ul id="ul-smallscreen3">
+						<li><a href="#" >Movies</a></li>
+						<li><a href="#" >Tv series</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+		</li>
+		<li><a href="#" id="ll">Login</a></li>
+	</ul>
+	</div>
+	<!-- search button -->
+	<form method="get" id="formsearch"  >
+		<input type="search" name="searcher" placeholder="search movie" maxlength="20">
+		<input type="submit" name="submit" id="submit">
+	</form>
+	<!-- hollywood movie list -->
+	<div class="container" id="movie-con">
+		<div id="movie">
+			<div>
+				<figure>
+					<img src='img/images.jpg' id="movie-img">
+					<figcaption style="text-align: center;">suicide squad</figcaption>
+				</figure>
+			</div>
+			<div id="desc">
+				<i> Your Description:</i>
+				<p >
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<button class="btn btn-success">like</button> <i>1000</i>
+				<button class="btn btn-danger">dislike</button> <i>345</i>
+			</div>
+		</div>
+		<div id="movie">
+			<div>
+				<figure>
+					<img src='img/jw.jpg' id="movie-img">
+					<figcaption style="text-align: center;">jurassic world</figcaption>
+				</figure>
+			</div>
+			<div id="desc">
+				<i> Your Description:</i>
+				<p >
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<button class="btn btn-success">like</button> <i>0</i>
+				<button class="btn btn-danger">dislike</button> <i>0</i>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+	<p style="color: blue;">the footer</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script/jquery-3.4.1.min.js"></script>
+<script src="script/script.js"></script>
+<script src="script/bootstrap.bundle.js"></script>
+</html>
