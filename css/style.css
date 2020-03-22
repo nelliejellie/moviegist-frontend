@@ -259,9 +259,15 @@ button{
 	right: 0;
 }
 
-	
+#form{
+	display: inline-block;
+}	
+#movieVote1{
+	float: right;
+	position: absolute;
+	bottom: 1vh;
+}
 
-	
 
 
 
