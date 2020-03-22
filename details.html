@@ -41,7 +41,7 @@
 			</div>
 			<div id="desc">
 				<i> Your Description:</i>
-				<p >
+				<p id="descrip">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -49,25 +49,29 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
-				<button class="btn btn-success">like</button> <i>0</i>
-				<button class="btn btn-danger">dislike</button> <i>0</i>
+				<button class="btn btn-success">Worth Seeing</button> <i>0</i>
+				<button class="btn btn-danger">Not Worth Seeing</button> <i>0</i>
 			</div>
 		</div>
 	</div>
 	<!-- chatbox -->
 	<div id="chat-box">
 		<i>jerrynelson:</i>
-		<p>this movie is very nice. i had fun watching it</p>
-		<button class="btn btn-success btn-sm">like</button> <i>10</i>
-		<button class="btn btn-danger btn-sm">dislike</button> <i>34</i><br>
+		<p>this movie is very nice. i had fun watching it
+		<br><small><i>jerrynelson thinks it's Worth-seeing</i></small>
+		</p>
 		<i>chibs:</i>
-		<p>way to much drama</p>
-		<button class="btn btn-success btn-sm">like</button> <i>0</i>
-		<button class="btn btn-danger btn-sm">dislike</button> <i>0</i>
+		<p>way to much drama
+		<br><small><i>chibs thinks it's Not-Worth-seeing</i></small>
+		</p>
+		
+		</div>
 	</div>
 	<!-- chatform -->
 	<div id="chat-form">
 		<form method="post" action="#" id="chat">
+			<div style="text-align: right;margin-right: 30px;"><input type="radio" name="movieVote" value="worth-seeing" id="gh"><i>Worth-seeing</i></div>
+			<div style="text-align: right;margin-right: 30px;"><input type="radio" name="movieVote" value="not-worth-seeing" id="gp"><i>Not-Worth-seeing</i></div>
 			<textarea  name="gist" id="input-gist" placeholder="" id="textarea"></textarea>
 			<input type="submit" name="submit" class="btn btn-success btn-lg" value="gist" id="submit-chat">
 		</form>	
