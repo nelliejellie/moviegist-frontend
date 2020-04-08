@@ -1,6 +1,5 @@
 #smallscreens{
 	display: block;
-	
 }
 #bigscreens{
 	display: none;
@@ -147,4 +146,21 @@ figcaption{
 }
 footer{
 	top: 1000px;
+}
+#contactus-div{
+	width: 90%;
+	background-color: #49D32A;
+	margin: 30px;
+	height: 600px;
+	z-index: -1;
+	margin-top: 100px;
+}
+#exampleFormControlInput1{
+	width: 50%;
+}
+#exampleFormControlInput2{
+	width: 60%;
+}
+#exampleFormControlInput3{
+	width: 40%;
 }

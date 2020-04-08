@@ -66,67 +66,42 @@
 						<li><a href="#" style="color: #b55353;">Tv series</a></li>
 					</ul>
 				</li>
-				<li><a href="{% url 'contact' %}" id="reg" >ContactUs</a></li>
+				
 			</ul>
 		</li>
-		<li><a href="#" id="ll">Login</a></li>
+		<li><a href="#" id="login">Login</a></li>
+		<li><a href="#" id="register">register</a></li>
+
 	</ul>
 	</div>
-	<!-- search button -->
-	<form method="get" id="formsearch"  >
-		<input type="search" name="searcher" placeholder="search movie" maxlength="20">
-		<input type="submit" name="submit" id="submit">
-	</form>
-	<!-- movie images -->
-	<h1 id="holly-h1">Hollywood</h1>
-	<div id="wrapper-hollywood">
-		<figure id="child">
-			<img src='img/images.jpg'>
-			<figcaption>suicide squad</figcaption>
-		</figure>
-		<figure id="child">
-			<img src="">
-			<figcaption>Jurassic world</figcaption>
-		</figure>
-		<figure id="child">
-			<img src="">
-			<figcaption>Man of steel</figcaption>
-		</figure>
+	<div class="col" id="contactus-div">
+		<form>
+			<div class="form-group" style="z-index: -1;position: relative;">
+		    	<label for="exampleFormControlInput1">Name</label>
+		    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" name="fullname">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="exampleFormControlInput1">Email address</label>
+		    	<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" name="email">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="exampleFormControlInput1">Phone Number</label>
+		    	<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="mobile no" name="mobile">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="exampleFormControlInput1">Message</label>
+		  	</div>
+		  	<textarea name="desciption" cols="50" rows="7" placeholder="How can we help?"></textarea>
+		  	<div class="col-auto my-1" id="submit-contact">
+      			<button type="submit" class="btn btn-primary btn-lg" id="submit-button">Send</button>
+    		</div>
+		</form>
 	</div>
-	<h1 id="bolly-h1">Bollywood</h1>
-	<div id="wrapper-bollywood">
-		<figure id="child">
-			<img src="">
-			<figcaption></figcaption>
-		</figure>
-		<figure id="child">
-			<img src="">
-			<figcaption></figcaption>
-		</figure>
-		<figure id="child">
-			<img src="">
-			<figcaption></figcaption>
-		</figure>
-	</div>
-	<h1 id="nolly-h1">Nollywood</h1>
-	<div id="wrapper-nollywood">
-		<figure id="child">
-			<img src="">
-			<figcaption></figcaption>
-		</figure>
-		<figure id="child">
-			<img src="">
-			<figcaption></figcaption>
-		</figure>
-		<figure id="child">
-			<img src="">
-			<figcaption></figcaption>
-		</figure>
-	</div>
+
 	
 </body>
 <footer>
-	<a href="#">Contact us</a>
+
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="script/jquery-3.4.1.min.js"></script>

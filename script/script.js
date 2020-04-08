@@ -16,7 +16,7 @@ $(function(){
 		$('#ul-smallscreen3').css({'display':'block'});
 	});
 	$('#Bollywood-smallscreen').dblclick(function(){
-		$('#ul-smallscreen2').css({'display':'none'});
+		$('#ul-smallscreen3').css({'display':'none'});
 	});
 	$('a').active(function(){
 		$(this).css({'#':'#'});

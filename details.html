@@ -59,10 +59,16 @@
 		<i>jerrynelson:</i>
 		<p>this movie is very nice. i had fun watching it
 		<br><small><i>jerrynelson thinks it's Worth-seeing</i></small>
+		<a href="javascript:{$('#delete').submit()}"><img src="img/delete.png" alt='delete' style="width: 30px;height: 30px"></a>
+		<form id="delete" method="POST" action="{% url 'delete' %}">
+			<input type="hidden">
+		</form>
 		</p>
 		<i>chibs:</i>
 		<p>way to much drama
 		<br><small><i>chibs thinks it's Not-Worth-seeing</i></small>
+		<a href=""><img src="img/delete.png" alt='delete' style="width: 30px;height: 30px"></a>
+
 		</p>
 		
 		</div>

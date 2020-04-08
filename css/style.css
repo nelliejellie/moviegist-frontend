@@ -63,7 +63,7 @@ ul li ul{
 }
 ul li:hover ul{
 	display: block;	
-	height: 100px;
+	height: 200px;
 }
 
 ul li ul li a:hover{
@@ -268,6 +268,44 @@ button{
 	position: absolute;
 	bottom: 1vh;
 }
+#delete{
+	text-align: left;	
+	color: #618BA0;
+	z-index: -4;
+}
+#delete-question{
+	text-align: left;
+	z-index: -4;
+}
+#delete-div{
+	text-align: left;
+	position: absolute;
+	z-index: -4;
+}
+#answer-div{
+	text-align: left;
+	position: relative;
+	z-index: -4;
+	width: 40%;
+}
+#contactus-div{
+	width: 50%;
+	background-color: #49D32A;
+	margin: 30px;
+	height: 600px;
+	z-index: -1;
+	margin-top: 100px;
+}
+#exampleFormControlInput1{
+	width: 50%;
+}
+#exampleFormControlInput2{
+	width: 60%;
+}
+#exampleFormControlInput3{
+	width: 40%;
+}
+
 
 
 
